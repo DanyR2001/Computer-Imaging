@@ -103,6 +103,7 @@ We compare all methods using:
 ---
 
 ## Project Structure
+```
 ├── data/ # dataset and preprocessing
 ├── degradation/ # blur + noise simulation
 ├── variational/ # TpV implementation
@@ -113,6 +114,7 @@ We compare all methods using:
 ├── notebooks/ # experiments and visualization
 ├── utils/ # helper functions
 └── main.py
+```
 
 ## 🚀 How to Run
 
@@ -120,6 +122,7 @@ We compare all methods using:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+```
 
 ### 2. Install dependencies
 
