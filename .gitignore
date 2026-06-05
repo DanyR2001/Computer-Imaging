@@ -78,3 +78,5 @@ data/
 ehthumbs.db
 Thumbs.db
 /code/data_cache
+code/weights/UNet_FFHQ.pth
+*.pth
