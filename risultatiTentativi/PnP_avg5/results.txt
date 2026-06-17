@@ -1,0 +1,71 @@
+ 
+===== δ = 0.005  (media su 5 img) =====
+  mu_max=1e-05     PSNR=37.76  SSIM=0.963  LPIPS=0.032
+  mu_max=0.0001    PSNR=37.75  SSIM=0.963  LPIPS=0.032
+  mu_max=0.001     PSNR=37.70  SSIM=0.963  LPIPS=0.032
+  mu_max=0.05      PSNR=36.04  SSIM=0.948  LPIPS=0.055
+  mu_max=0.1       PSNR=35.23  SSIM=0.940  LPIPS=0.066
+  mu_max=0.3       PSNR=33.77  SSIM=0.921  LPIPS=0.086
+  mu_max=1.0       PSNR=32.02  SSIM=0.884  LPIPS=0.112
+  mu_max=2.0       PSNR=30.88  SSIM=0.852  LPIPS=0.130
+  mu_max=5.0       PSNR=29.17  SSIM=0.813  LPIPS=0.164
+  mu_max=10        PSNR=27.75  SSIM=0.783  LPIPS=0.199
+  mu_max=20        PSNR=26.34  SSIM=0.754  LPIPS=0.234
+  mu_max=50        PSNR=24.75  SSIM=0.720  LPIPS=0.278
+-> best PSNR : mu_max=1e-05  (PSNR=37.76)
+-> best SSIM : mu_max=1e-05  (SSIM=0.963)
+-> best LPIPS: mu_max=1e-05  (LPIPS=0.032)
+
+===== δ = 0.01  (media su 5 img) =====
+  mu_max=1e-05     PSNR=36.98  SSIM=0.959  LPIPS=0.019
+  mu_max=0.0001    PSNR=36.98  SSIM=0.959  LPIPS=0.019
+  mu_max=0.001     PSNR=36.98  SSIM=0.959  LPIPS=0.019
+  mu_max=0.05      PSNR=36.00  SSIM=0.950  LPIPS=0.045
+  mu_max=0.1       PSNR=35.26  SSIM=0.942  LPIPS=0.059
+  mu_max=0.3       PSNR=33.83  SSIM=0.922  LPIPS=0.082
+  mu_max=1.0       PSNR=32.07  SSIM=0.885  LPIPS=0.110
+  mu_max=2.0       PSNR=30.92  SSIM=0.853  LPIPS=0.129
+  mu_max=5.0       PSNR=29.19  SSIM=0.813  LPIPS=0.163
+  mu_max=10        PSNR=27.75  SSIM=0.784  LPIPS=0.198
+  mu_max=20        PSNR=26.34  SSIM=0.754  LPIPS=0.234
+  mu_max=50        PSNR=24.75  SSIM=0.720  LPIPS=0.278
+-> best PSNR : mu_max=0.0001  (PSNR=36.98)
+-> best SSIM : mu_max=0.001  (SSIM=0.959)
+-> best LPIPS: mu_max=1e-05  (LPIPS=0.019)
+
+===== δ = 0.05  (media su 5 img) =====
+  mu_max=1e-05     PSNR=18.74  SSIM=0.286  LPIPS=0.750
+  mu_max=0.0001    PSNR=18.75  SSIM=0.286  LPIPS=0.750
+  mu_max=0.001     PSNR=18.81  SSIM=0.289  LPIPS=0.748
+  mu_max=0.05      PSNR=20.63  SSIM=0.371  LPIPS=0.677
+  mu_max=0.1       PSNR=21.58  SSIM=0.420  LPIPS=0.636
+  mu_max=0.3       PSNR=23.66  SSIM=0.525  LPIPS=0.526
+  mu_max=1.0       PSNR=27.29  SSIM=0.697  LPIPS=0.305
+  mu_max=2.0       PSNR=29.70  SSIM=0.802  LPIPS=0.161
+  mu_max=5.0       PSNR=29.57  SSIM=0.826  LPIPS=0.131
+  mu_max=10        PSNR=27.99  SSIM=0.790  LPIPS=0.185
+  mu_max=20        PSNR=26.44  SSIM=0.757  LPIPS=0.230
+  mu_max=50        PSNR=24.78  SSIM=0.721  LPIPS=0.277
+-> best PSNR : mu_max=2.0  (PSNR=29.70)
+-> best SSIM : mu_max=5.0  (SSIM=0.826)
+-> best LPIPS: mu_max=5.0  (LPIPS=0.131)
+
+===== δ = 0.1  (media su 5 img) =====
+  mu_max=1e-05     PSNR=13.39  SSIM=0.133  LPIPS=1.065
+  mu_max=0.0001    PSNR=13.39  SSIM=0.133  LPIPS=1.064
+  mu_max=0.001     PSNR=13.44  SSIM=0.134  LPIPS=1.062
+  mu_max=0.05      PSNR=14.90  SSIM=0.176  LPIPS=0.993
+  mu_max=0.1       PSNR=15.58  SSIM=0.200  LPIPS=0.965
+  mu_max=0.3       PSNR=16.83  SSIM=0.254  LPIPS=0.914
+  mu_max=1.0       PSNR=18.56  SSIM=0.328  LPIPS=0.830
+  mu_max=2.0       PSNR=19.99  SSIM=0.384  LPIPS=0.748
+  mu_max=5.0       PSNR=23.22  SSIM=0.497  LPIPS=0.529
+  mu_max=10        PSNR=27.46  SSIM=0.720  LPIPS=0.227
+  mu_max=20        PSNR=26.92  SSIM=0.769  LPIPS=0.203
+  mu_max=50        PSNR=24.94  SSIM=0.724  LPIPS=0.273
+-> best PSNR : mu_max=10  (PSNR=27.46)
+-> best SSIM : mu_max=20  (SSIM=0.769)
+-> best LPIPS: mu_max=20  (LPIPS=0.203)
+
+PNP_MUMAX_BY_NL = {0.005: {'mu_max': 1e-05, 'psnr': 37.75625715606691, 'ssim_best_mm': 1e-05, 'ssim_best': 0.9632049538089751, 'lpips_best_mm': 1e-05, 'lpips_best': 0.03174777626991272, 'n_eval': 5}, 0.01: {'mu_max': 0.0001, 'psnr': 36.98402072389085, 'ssim_best_mm': 0.001, 'ssim_best': 0.9588868431657792, 'lpips_best_mm': 1e-05, 'lpips_best': 0.018903880566358566, 'n_eval': 5}, 0.05: {'mu_max': 2.0, 'psnr': 29.704247601950716, 'ssim_best_mm': 5.0, 'ssim_best': 0.8261260628342726, 'lpips_best_mm': 5.0, 'lpips_best': 0.13067245483398438, 'n_eval': 5}, 0.1: {'mu_max': 10, 'psnr': 27.46213747726683, 'ssim_best_mm': 20, 'ssim_best': 0.769135126540687, 'lpips_best_mm': 20, 'lpips_best': 0.2029384583234787, 'n_eval': 5}}
+
