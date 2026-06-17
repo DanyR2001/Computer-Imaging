@@ -1,0 +1,44 @@
+ 
+===== δ = 0.005  (media su 5 img) =====
+  g=0.005   PSNR=30.35  SSIM=0.876  LPIPS=0.130
+  g=0.01    PSNR=33.14  SSIM=0.928  LPIPS=0.076
+  g=0.1     PSNR=32.42  SSIM=0.928  LPIPS=0.069
+  g=0.2     PSNR=29.10  SSIM=0.904  LPIPS=0.075
+  g=0.3     PSNR=22.67  SSIM=0.827  LPIPS=0.123
+-> best PSNR : g=0.01  (PSNR=33.14)
+-> best SSIM : g=0.1  (SSIM=0.928)
+-> best LPIPS: g=0.1  (LPIPS=0.069)
+
+===== δ = 0.01  (media su 5 img) =====
+  g=0.005   PSNR=30.32  SSIM=0.875  LPIPS=0.131
+  g=0.01    PSNR=33.06  SSIM=0.927  LPIPS=0.077
+  g=0.1     PSNR=31.79  SSIM=0.918  LPIPS=0.076
+  g=0.2     PSNR=28.87  SSIM=0.887  LPIPS=0.085
+  g=0.3     PSNR=27.06  SSIM=0.818  LPIPS=0.122
+-> best PSNR : g=0.01  (PSNR=33.06)
+-> best SSIM : g=0.01  (SSIM=0.927)
+-> best LPIPS: g=0.1  (LPIPS=0.076)
+
+===== δ = 0.05  (media su 5 img) =====
+  g=0.005   PSNR=29.57  SSIM=0.854  LPIPS=0.148
+  g=0.01    PSNR=31.36  SSIM=0.892  LPIPS=0.105
+  g=0.1     PSNR=30.20  SSIM=0.832  LPIPS=0.101
+  g=0.2     PSNR=27.57  SSIM=0.813  LPIPS=0.114
+  g=0.3     PSNR=23.73  SSIM=0.741  LPIPS=0.176
+-> best PSNR : g=0.01  (PSNR=31.36)
+-> best SSIM : g=0.01  (SSIM=0.892)
+-> best LPIPS: g=0.1  (LPIPS=0.101)
+
+===== δ = 0.1  (media su 5 img) =====
+  g=0.005   PSNR=28.59  SSIM=0.815  LPIPS=0.174
+  g=0.01    PSNR=29.69  SSIM=0.840  LPIPS=0.136
+  g=0.1     PSNR=26.50  SSIM=0.648  LPIPS=0.225
+  g=0.2     PSNR=25.07  SSIM=0.621  LPIPS=0.260
+  g=0.3     PSNR=22.94  SSIM=0.578  LPIPS=0.308
+-> best PSNR : g=0.01  (PSNR=29.69)
+-> best SSIM : g=0.01  (SSIM=0.840)
+-> best LPIPS: g=0.01  (LPIPS=0.136)
+
+DPS_GUIDANCE_BY_NL = {0.005: {'g': 0.01, 'psnr': 33.135526345456434, 'ssim_best_g': 0.1, 'ssim_best': 0.9282126270453116, 'lpips_best_g': 0.1, 'lpips_best': 0.06886817328631878, 'n_eval': 5}, 0.01: {'g': 0.01, 'psnr': 33.05551257293717, 'ssim_best_g': 0.01, 'ssim_best': 0.9265865748890579, 'lpips_best_g': 0.1, 'lpips_best': 0.07620836570858955, 'n_eval': 5}, 0.05: {'g': 0.01, 'psnr': 31.3584877453437, 'ssim_best_g': 0.01, 'ssim_best': 0.891549893203053, 'lpips_best_g': 0.1, 'lpips_best': 0.10142290443181992, 'n_eval': 5}, 0.1: {'g': 0.01, 'psnr': 29.68733692494966, 'ssim_best_g': 0.01, 'ssim_best': 0.8400375369788863, 'lpips_best_g': 0.01, 'lpips_best': 0.13578427731990814, 'n_eval': 5}}
+
+
