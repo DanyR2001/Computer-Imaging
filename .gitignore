@@ -80,3 +80,5 @@ Thumbs.db
 /code/data_cache
 code/weights/UNet_FFHQ.pth
 *.pth
+.DS_Store
+.DS_Store
